@@ -26,11 +26,11 @@ class Opciones extends React.Component {
             <div className="opciones">
                 <div className="opcion">
                     <button className="botones" onClick={() => this.elegirCamino("a")}>A</button>
-                    <h2 className="opcion">{this.state.opcionA}</h2>
+                    <h2>{this.state.opcionA}</h2>
                 </div>
                 <div className="opcion">
                     <button className="botones" onClick={() => this.elegirCamino("b")}>B</button>
-                    <h2 className="opcion">{this.state.opcionB}</h2>
+                    <h2>{this.state.opcionB}</h2>
                 </div>
             </div>
         )
